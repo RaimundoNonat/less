@@ -21,10 +21,6 @@ li {
     flex-direction: column;
     justify-content: center;
 
-    @media @breakpointMobile {
-        max-width: 70%;
-    }
-
     @media @breakpointTablet {
         max-width: 80%;
     }
@@ -86,11 +82,13 @@ header {
             background-color: #colors[buttonColor];
             color: #colors[textColor];
             display: block;
-            padding: 16px 20px;
-            margin-bottom: 16px;
+            padding: 10px 10px;
+            margin: 0px 40px 16px 10px;
             text-align: center;
+            align-items: center;
+            justify-content: center;
             border-radius: 30px;
-            border: 2px solid #colors[buttonColor];
+            border: 1px solid #colors[buttonColor];
             transition: all ease .3s;
 
             &:hover {
@@ -99,7 +97,10 @@ header {
 
             }
 
+            li {
+               
+            }
         }
-
     }
 }
+
